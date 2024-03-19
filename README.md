@@ -8,7 +8,7 @@
 To ImplementA * Search algorithm for a Graph using Python 3.
 
 ## Algorithm:
-```
+```python
 // A* Search Algorithm
 1.  Initialize the open list
 2.  Initialize the closed list
@@ -44,7 +44,7 @@ To ImplementA * Search algorithm for a Graph using Python 3.
 ```
 
 ## PROGRAM:
-```
+```python
 from collections import defaultdict
 H_dist ={}
 def aStarAlgo(start_node, stop_node):
@@ -111,7 +111,7 @@ while len(open_set) > 0:
 print('Path does not exist!')
 return None
 ```
-```
+```python
 
 
 #define fuction to return neighbor and its distance
